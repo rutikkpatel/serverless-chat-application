@@ -1,0 +1,12 @@
+# Serverless build output
+.serverless
+
+# Node.js dependencies
+node_modules
+
+# TypeScript build output
+.build
+
+# Editor and IDE settings
+.vscode
+.prettierrc
