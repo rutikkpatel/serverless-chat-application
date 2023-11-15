@@ -47,6 +47,15 @@ provider:
 #                - "Ref" : "ServerlessDeploymentBucket"
 #                - "/*"
 
+  environment:
+    WSSAPIGATEWAYENDPOINT:
+      Fn::Join:
+        - ""
+        - - Ref: WebsocketsApi
+          - ".execute-api."
+          - Ref: AWS::Region
+          - ".amazonaws.com/${sls:stage}"
+
   iam:
     role:
       statements:
