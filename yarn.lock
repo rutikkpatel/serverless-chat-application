@@ -1021,6 +1021,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/uuid@^9.0.7":
+  "integrity" "sha512-WUtIVRUZ9i5dYXefDEAI7sh9/O7jGvHg7Df/5O/gtH3Yabe5odI3UWopVR1qbPXQtvOxWu3mM4XxlYeZtMWF4g=="
+  "resolved" "https://registry.npmjs.org/@types/uuid/-/uuid-9.0.7.tgz"
+  "version" "9.0.7"
+
 "2-thenable@^1.0.0":
   "integrity" "sha512-HqiDzaLDFCXkcCO/SwoyhRwqYtINFHF7t9BDRq4x90TOKNAJpiqUt9X5lQ08bwxYzc067HUywDjGySpebHcUpw=="
   "resolved" "https://registry.npmjs.org/2-thenable/-/2-thenable-1.0.0.tgz"
